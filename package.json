@@ -1,0 +1,11 @@
+{
+  "name": "keyboard-key-icons",
+  "version": "0.0.1",
+  "description": "A simple, lightweight CSS icon library for displaying keyboard keys.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thtmorais/keyboard-key-icons.git"
+  },
+  "license": "MIT",
+  "author": "Matheus Evangelista Morais <thtmorais@hotmail.com>"
+}

@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Key Icons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/keyboard-key-icons.css">
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="card shadow-sm">
+            <div class="card-body p-5">
+                <header class="text-center mb-5">
+                    <h1>Keyboard Key Icons</h1>
+                    <p class="lead text-muted">A simple, lightweight CSS icon library for displaying keyboard keys.</p>
+                </header>
+
+                <main>
+                    <section id="getting-started" class="mb-5">
+                        <h2 class="border-bottom pb-2 mb-3">Getting Started</h2>
+
+                        <p>To use Keyboard Key Icons in your project, install the package via <a title="npm" target="_blank" href="https://docs.npmjs.com/about-npm">npm</a>:</p>
+
+                        <div class="bg-dark">
+                            <p class="text-white p-3">npm install keyboard-key-icons</p>
+                        </div>
+                    </section>
+
+                    <section id="basic-usage" class="mb-5">
+                        <h2 class="border-bottom pb-2 mb-3">Basic Usage</h2>
+
+                        <p>To use an icon, add an <code>&lt;i&gt;</code> element with the class corresponding to the key you want to display. For example, to display the "A" key, you would use the following code:</p>
+
+                        <div class="mb-3">
+                            <i class="key-a"></i>
+                        </div>
+
+                        <div class="code-block mb-4">
+                            <pre class="bg-dark text-white p-3 rounded"><code>&lt;i class="key-a"&gt;&lt;/i&gt;</code></pre>
+                        </div>
+
+                        <h3 class="h5">Sizing</h3>
+
+                        <p>You can change the size of the icons by adding the appropriate class to the <code>&lt;i&gt;</code> element. For example, to use a larger size, you can add the <code>.key-lg</code> class:</p>
+
+                        <h5 class="h5">Relative size guide:</h5>
+
+                        <p>Example: </p>
+
+                        <div class="code-block mb-4">
+                            <pre class="bg-dark text-white p-3 rounded"><code>&lt;i class="key-a key-lg"&gt;&lt;/i&gt;</code></pre>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-0 text-center py-3">
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-xxs</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-xxs"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-xs</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-xs"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-sm</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-sm"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-lg</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-lg"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-xl</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-xl"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-xxl</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-xxl"></i></div>
+                            </div>
+                        </div>
+
+                        <h5 class="h5">Literal size guide:</h5>
+
+                        <p>Example: </p>
+
+                        <div class="code-block mb-4">
+                            <pre class="bg-dark text-white p-3 rounded"><code>&lt;i class="key-a key-lg"&gt;&lt;/i&gt;</code></pre>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-0 text-center py-3">
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-1x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-1x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-2x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-2x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-3x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-3x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-4x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-4x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-5x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-5x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-6x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-6x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-7x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-7x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-8x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-8x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-9x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-9x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-10x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-10x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-11x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-11x"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.key-12x</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-b key-12x"></i></div>
+                            </div>
+                        </div>
+
+                        <h3 class="h5">Coloring</h3>
+
+                        <p>You can change the color of the icons by applying a <code>text-*</code> (Boostrap classes) class to the <code>&lt;i&gt;</code> element.</p>
+
+                        <div class="code-block">
+                            <pre class="bg-dark text-white p-3 rounded"><code>&lt;i class="key-c key-3x text-danger"&gt;&lt;/i&gt;<br>&lt;i class="key-c key-3x text-warning"&gt;&lt;/i&gt;<br>&lt;i class="key-c key-3x text-primary"&gt;&lt;/i&gt;</code></pre>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-sm-3 g-0 text-center py-3">
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.text-danger</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-c key-3x text-danger"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.text-warning</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-c key-3x text-warning"></i></div>
+                            </div>
+
+                            <div class="col border py-2 d-flex flex-column">
+                                <code>.text-primary</code>
+
+                                <hr class="w-100">
+
+                                <div class="flex-grow-1 d-flex align-items-center justify-content-center"><i class="key-c key-3x text-primary"></i></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="available-icons">
+                        <h2 class="border-bottom pb-2 mb-4">Available Icons</h2>
+
+                        <div class="mb-5">
+                            <h3 class="h4 text-secondary mb-3">Alphabetic Keys (A-Z)</h3>
+                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-2">
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-a"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-a</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-b"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-b</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-c"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-c</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-d"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-d</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-e"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-e</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-g"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-g</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-h"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-h</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-i"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-i</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-j"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-j</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-k"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-k</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-l"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-l</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-m"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-m</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-n"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-n</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-o"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-o</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-p"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-p</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-q"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-q</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-r"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-r</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-s"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-s</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-t"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-t</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-u"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-u</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-v"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-v</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-w"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-w</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-x"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-x</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-y"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-y</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-z"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-z</code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <h3 class="h4 text-secondary mb-3">Number Keys (0-9)</h3>
+                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-2">
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-0"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-0</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-1"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-1</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-2"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-2</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-3"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-3</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-4"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-4</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-5"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-5</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-6"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-6</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-7"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-7</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-8"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-8</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-9"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-9</code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <h3 class="h4 text-secondary mb-3">Command Keys</h3>
+                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-2">
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-enter"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-enter</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-alt</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-ctrl"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-ctrl</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-fn"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-fn</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-tab"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-tab</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-caps-lock"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-caps-lock</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-shift"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-shift</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-backspace"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-backspace</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-insert"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-insert</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-home"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-home</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-delete"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-delete</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-end"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-end</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-esc"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-esc</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-command"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-command</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-option"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-option</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-num-lock"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-num-lock</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-arrow-up"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-arrow-up</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-arrow-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-arrow-down</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-arrow-left</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-arrow-right"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-arrow-right</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-page-up"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-page-up</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-page-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-page-down</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-space"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-space</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-print-screen"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-print-screen</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-windows"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-windows</code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <h3 class="h4 text-secondary mb-3">Special Keys</h3>
+                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-2">
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-dollar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-dollar</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-plus"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-plus</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-hyphen-or-minus"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-hyphen-or-minus</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-asterisk"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-asterisk</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-slash"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-slash</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-equal"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-equal</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-percent"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-percent</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-double-quotes"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-double-quotes</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-single-quotes"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-single-quotes</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-number-sign"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-number-sign</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-at"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-at</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-ampersand"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-ampersand</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-underscore"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-underscore</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-paren-left"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-paren-left</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-paren-right"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-paren-right</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-comma"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-comma</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-period"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-period</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-semicolon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-semicolon</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-colon"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-colon</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-question"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-question</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-exclamation"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-exclamation</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-backslash"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-backslash</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-bar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-bar</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-brace-left"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-brace-left</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-brace-right"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-brace-right</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-less"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-less</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-greater"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-greater</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-bracket-left"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-bracket-left</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-bracket-right"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-bracket-right</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-grave"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-grave</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-circumflex"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-circumflex</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-tilde"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-tilde</code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <h3 class="h4 text-secondary mb-3">Function Keys</h3>
+                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-2">
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f1"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f1</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f2"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f2</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f3"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f3</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f4"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f4</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f5"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f5</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f6"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f6</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f7"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f7</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f8"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f8</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f9"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f9</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f10"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f10</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f11"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f11</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="card-body">
+                                            <div class="fs-2 mb-2">
+                                                <i class="key-f12"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer">
+                                            <code class="text-muted text-nowrap">.key-f12</code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
