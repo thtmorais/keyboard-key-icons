@@ -2,6 +2,12 @@
 
 A simple, lightweight CSS icon library for displaying keyboard keys.
 
+## Live Demo & Documentation
+
+Check out the complete documentation and a live demo of all icons on our GitHub Pages site:
+
+**[https://thtmorais.github.io/keyboard-key-icons/](https://thtmorais.github.io/keyboard-key-icons/)**
+
 ## Getting Started
 
 To use Keyboard Key Icons in your project, install the package via [npm](https://docs.npmjs.com/about-npm):
@@ -251,3 +257,9 @@ Copyright (c) 2024 Matheus Evangelista Morais.
 ### Font License
 
 Please note that the font "212 Keyboard" by "212 Fonts" is used in this project and is subject to its own license terms. It is free for personal and small commercial use, but cannot be resold. For more details, please see the `LICENSE.md` file.
+
+---
+
+### Keywords
+
+`keyboard`, `keys`, `icons`, `icon-library`, `css-icons`, `icon-font`, `css`, `html`, `frontend`, `keyboard-shortcuts`, `hotkeys`, `ui`, `lightweight`, `bootstrap`, `key-bindings`, `shortcut-icons`, `hotkey-icons`
