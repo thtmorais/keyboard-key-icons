@@ -1,5 +1,3 @@
-# This workflow will run every time a new release is created.
-# It will publish the package to the npm registry.
 name: Publish to npm
 
 on:
@@ -18,11 +16,6 @@ jobs:
         with:
           node-version: '20.x' # Use a current LTS version
           registry-url: 'https://registry.npmjs.org'
-
-      # If you have a build step, you would add it here.
-      # For this project, it seems we are publishing the src files directly.
-      # - name: Install dependencies and build
-      #   run: npm ci && npm run build
 
       - name: Publish to npm
         run: npm publish --access public
