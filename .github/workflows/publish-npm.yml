@@ -1,0 +1,30 @@
+# This workflow will run every time a new release is created.
+# It will publish the package to the npm registry.
+name: Publish to npm
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  publish-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x' # Use a current LTS version
+          registry-url: 'https://registry.npmjs.org'
+
+      # If you have a build step, you would add it here.
+      # For this project, it seems we are publishing the src files directly.
+      # - name: Install dependencies and build
+      #   run: npm ci && npm run build
+
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
